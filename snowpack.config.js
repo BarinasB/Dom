@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://github.com/BarinasB/Dom',
+    baseUrl: 'https://BarinasB.github.io/Dom',
   },
 }

@@ -1,0 +1,68 @@
+@import 'tailwindcss/dist/base.css';
+@import 'tailwindcss/dist/components.css';
+@import 'tailwindcss/dist/utilities.css';
+
+
+.card {
+    border: 1px solid #3807fa;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+#avocatos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+
+#app{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.palta-container{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+}
+
+.palta-container:hover{
+    background-color: rgb(230, 240, 228);
+    border-radius: 15px;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 75px;
+    margin: auto 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.prize{
+    position: absolute;
+    top: 35px;
+    left: 104px;
+    color: rgb(166, 18, 18);
+}
+
+.title{
+    margin-top: 17px;
+    margin-left: 10px;
+    font-weight: 500;
+}
